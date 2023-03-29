@@ -35,7 +35,7 @@ function App() {
             <p>28 Jun 2020</p>
           </div>
           <div className='share'>
-            <button onClick={handleBtnClick}><img src={share } alt=''/></button>
+            <img onClick={handleBtnClick} src={share } alt=''/>
           </div>
         </section>
         <section className={`share-card ${toggleClassSC}`}>
@@ -48,7 +48,7 @@ function App() {
               <img src={pinterest} alt=''/>
             </div>
             <div className='share'>
-              <button onClick={handleBtnClick}><img src={share } alt=''/></button>
+              <img onClick={handleBtnClick} src={share } alt=''/>
             </div>
         </section>
       </section>
