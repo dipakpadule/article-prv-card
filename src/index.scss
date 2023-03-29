@@ -1,0 +1,46 @@
+$Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+$Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+$Grayish-Blue: hsl(212, 23%, 69%);
+$Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+$font-family: 'Manrope';
+$font-size: 13px;
+$medium: 500;
+$bold: 700;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: $Grayish-Blue;
+  font-family: $font-family;
+}
+
+
+
+@media screen and (max-width:25.75rem) {
+  body {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width:23.43rem) {
+ body{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+ }
+
+}
+@media (min-width:81.25rem) and (max-width:90rem) {
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+}

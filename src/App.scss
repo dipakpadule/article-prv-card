@@ -1,0 +1,339 @@
+$Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+$Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+$Grayish-Blue: hsl(212, 23%, 69%);
+$Light-Grayish-Blue: hsl(210, 46%, 95%);
+
+$font-family:'Manrope';
+$font-size:0.81rem;
+$medium:500;
+$bold:700;
+
+
+.article-prv-card{
+  border-radius: 0.5rem;
+  .article-prv-card-img{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .apv-card-info{
+    .apv-card-info-summary{
+      margin-top: 2.25rem;
+      summary{
+        font-weight: $bold;
+        color: $Very-Dark-Grayish-Blue;
+      }
+      p{
+        font-size: $font-size;
+        color: $Very-Dark-Grayish-Blue;
+      }
+    }
+    .apv-card-info-user{
+      .user-pic{
+        
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+          }
+      }
+      .user-name{
+        summary{
+          color:$Very-Dark-Grayish-Blue;
+          font-weight: $bold;
+        }
+        p{
+          color: $Grayish-Blue;
+        }
+      }
+    }
+
+    .share-card {
+      .sc-social-icons {
+        img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+      .share{
+        img{
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width:25.75rem) {
+  .article-prv-card {
+    background: whitesmoke;
+    width: 20.43rem;
+    height: 32rem;
+    // margin: 0 10%;
+
+    img {
+      width: 20.43rem;
+      height: 12.56rem;
+    }
+
+    .apv-card-info {
+      margin: 0 1.87rem;
+
+      .apv-card-info-summary {
+        margin-top: 2.25rem;
+
+        summary {
+          font-size: 1rem;
+        }
+
+        p {
+          margin-top: 1.5rem;
+          margin-bottom: 2.45rem;
+          line-height: 1.2rem;
+        }
+      }
+
+      .apv-card-info-user {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .user-name {
+          margin-left: -0.75rem;
+        }
+
+        .share {
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            padding: 0.6rem;
+            background: $Light-Grayish-Blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and  (max-width:23.43rem){
+  .article-prv-card {
+      background: whitesmoke;
+      width: 20.43rem;
+      height: 32rem;
+      margin: 0 1.5rem;
+
+      img {
+        width: 20.43rem;
+        height: 12.56rem;
+      }
+  
+      .apv-card-info {
+        margin: 0 1.87rem;
+        .apv-card-info-summary {
+            margin-top: 2.25rem;
+        
+            summary {
+              font-size: 1rem;
+            }
+        
+            p {
+              margin-top: 1.5rem;
+              margin-bottom: 2.45rem;
+              line-height: 1.2rem;
+            }
+          }
+
+        .apv-card-info-user {
+          height: 4rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .user-name {
+            margin-left: -0.75rem;
+          }
+
+          .share {
+            button {
+              width: 2rem;
+              height: 2rem;
+              border-radius: 50%;
+              border: none;
+            }
+          }
+        }
+        .hideuf {
+          visibility: hidden;
+        }
+
+        .showuf {
+          visibility: visible;
+        }
+        .share-card {
+          width: 20.45rem;
+          height: 4rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          background: $Very-Dark-Grayish-Blue;
+          border-bottom-left-radius: 0.5rem;
+          border-bottom-right-radius: 0.5rem;
+          margin-left: -1.9rem;
+          margin-top: -3.9rem;
+
+          .sc-tag{
+            summary{
+              color: $Grayish-Blue;
+              text-transform: uppercase;
+              letter-spacing: 0.3rem;
+            }
+          }
+          .sc-social-icons {
+            display: flex;
+            img{
+              margin-right: 1rem;
+            }
+          }
+          .share{
+            button{
+              width: 2rem;
+              height: 2rem;
+              border-radius: 50%;
+              border: none;
+            }
+          }
+        }
+        .hidesc{
+          visibility: visible;
+        }
+        .showsc{
+          visibility: hidden;
+        }
+      }
+    }
+}
+
+@media (min-width:81.25rem) and (max-width:90rem) {
+  .article-prv-card {
+    display: flex;
+    background: whitesmoke;
+    width: 46.62rem;
+    height: 17.5rem;
+    // margin: 0 10%;
+
+    img {
+      width: 17.81rem;
+      height: 17.5rem;
+
+    }
+
+    .article-prv-card-img {
+      border-top-right-radius: 0rem;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+
+    .apv-card-info {
+      margin: 0 2rem;
+
+      .apv-card-info-summary {
+        margin-top: 2rem;
+
+        summary {
+          font-size: 1.4rem;
+        }
+
+        p {
+          margin-top: 0.8rem;
+          margin-bottom: 0.7rem;
+          line-height: 1.2rem;
+        }
+      }
+
+      .apv-card-info-user {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .user-name {
+          margin-left: -8rem;
+        }
+
+        .share {
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            padding: 0.6rem;
+            background: $Light-Grayish-Blue;
+          }
+        }
+      }
+
+      .share-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        top: -8.62rem;
+        right: -15.93rem;
+        background: $Very-Dark-Grayish-Blue;
+        text-align: center;
+        width: 15.5rem;
+        height: 3.43rem;
+        border-radius: 0.5rem;
+        padding: 0px;
+
+        .sc-tag {
+          summary {
+            text-transform: uppercase;
+            color: $Light-Grayish-Blue;
+            letter-spacing: 0.3rem;
+          }
+        }
+
+        .sc-social-icons {
+          img {
+            margin-left: 1rem;
+          }
+        }
+
+      }
+      
+
+      .share-card::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-color: $Very-Dark-Grayish-Blue transparent;
+        border-width: 20px 20px 0;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -20px;
+      }
+
+      .share {
+        button {
+          // display: none;
+          border: none;
+        }
+      }
+      .hidesc {
+        visibility: hidden;
+      }
+
+      .showsc {
+        visibility: visible;
+      }
+    }
+  }
+}
